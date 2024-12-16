@@ -1,0 +1,184 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "6B4FA122",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6739488194",
+      "localizations" : [
+        {
+          "description" : "A very shiny gold coin",
+          "displayName" : "Gold coin",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Ett fint guldmynt",
+          "displayName" : "Guldmynt",
+          "locale" : "sv"
+        }
+      ],
+      "productID" : "pia13goldcoin",
+      "referenceName" : "Pia13goldcoin",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "49.99",
+      "familyShareable" : false,
+      "internalID" : "6739488804",
+      "localizations" : [
+        {
+          "description" : "Lots of premium features",
+          "displayName" : "Premium",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "pia13premium",
+      "referenceName" : "Pia13premium",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6739488060",
+    "_developerTeamID" : "6SGQZ32758",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 756035661.62364399,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21608123",
+      "localizations" : [
+
+      ],
+      "name" : "Pia13ultrapremium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6739489078",
+          "introductoryOffer" : {
+            "internalID" : "5E3FA32A",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Lots of premium",
+              "displayName" : "Ultrapremium",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "pia13ultrapremiumonth",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "pia13ultrapremiumonth",
+          "subscriptionGroupID" : "21608123",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6739490310",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Premium year",
+              "displayName" : "Ultra premium year",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "piaultrapremiumyear",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "piaultrapremiumyear",
+          "subscriptionGroupID" : "21608123",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

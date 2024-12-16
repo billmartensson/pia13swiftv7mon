@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E84312722D10491100FF4464 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84312712D10491000FF4464 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E84312592D10180E00FF4464 /* pia13swiftv7mon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia13swiftv7mon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84312712D10491000FF4464 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84312722D10491100FF4464 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				E843125B2D10180E00FF4464 /* pia13swiftv7mon */,
+				E84312702D10491000FF4464 /* Frameworks */,
 				E843125A2D10180E00FF4464 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,14 @@
 				E84312592D10180E00FF4464 /* pia13swiftv7mon.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E84312702D10491000FF4464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E84312712D10491000FF4464 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
